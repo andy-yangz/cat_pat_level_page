@@ -31,7 +31,7 @@
 
   var translate = {
     "ears": "耳朵",
-    "face": "臉",
+    "face": "脸",
     "nose": "鼻子",
     "chin": "下巴",
     "neck": "脖子",
@@ -41,7 +41,7 @@
     "side": "側腹",
     "stomach": "肚肚",
     "butt": "屁屁",
-    "legs": "腳腳",
+    "legs": "jiojio",
     "tail": "尾巴",
     "front-paws": "前肉球",
     "rear-paws": "後肉球"
@@ -132,11 +132,11 @@
     var imageArea = document.querySelector('#image-area');
 
     if ('none' === viewArea.style.display) {
-      saveAs.innerText = '產生圖片';
+      saveAs.innerText = '生成图片';
       viewArea.style.display = 'block';
       imageArea.style.display = 'none';
     } else {
-      saveAs.innerText = '返回編輯';
+      saveAs.innerText = '返回编辑';
       viewArea.style.display = 'none';
       imageArea.style.display = 'block';
       cities.map(function (city) {
